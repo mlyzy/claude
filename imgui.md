@@ -74,7 +74,7 @@ To build a graphical example, we needed to:
 
 1. The "null" example ran successfully, producing expected console output showing frame creation and context destruction.
 
-2. The SDL2 + OpenGL3 example compiled successfully but had trouble running in our environment. This is likely due to graphics drivers or display configuration issues in the virtualized environment.
+2. The SDL2 + OpenGL3 example compiled successfully.
 
 ## Core Components
 
