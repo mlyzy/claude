@@ -1,6 +1,6 @@
-# CCCache Installation and Testing Process
+# CCache Installation and Testing Process
 
-This document describes the step-by-step process of building and testing CCCache from source code.
+This document describes the step-by-step process of building and testing CCache from source code.
 
 ## 1. Environment Setup
 
