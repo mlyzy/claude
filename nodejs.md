@@ -90,14 +90,6 @@ make test-only test/parallel/test-stream*.js
 - Useful for verifying particular features
 - Helps in debugging specific issues
 
-### Building Documentation
-```bash
-make doc
-```
-**Purpose**: Generate Node.js documentation
-- Creates HTML documentation
-- Generates man pages
-- Builds API documentation
 
 ## Notes and Observations
 
@@ -106,17 +98,10 @@ make doc
 - Some tests may require additional system resources or network connectivity
 - The build process creates both debug and release versions of Node.js
 
-## Troubleshooting
-
-Common issues that may be encountered:
-1. Insufficient system resources (memory/CPU)
-2. Missing dependencies
-3. Compiler version requirements
-4. Network connectivity issues during dependency downloads
 
 ## Results
 
 The build and test process creates several important artifacts:
 - `out/Release/node`: The main Node.js executable
 - `out/Release/lib`: Contains core Node.js libraries
-- Various test reports and documentation files
+- Various test reports
