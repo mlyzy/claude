@@ -87,10 +87,6 @@ We attempted to run the official SpeechBrain test suite:
 pytest tests
 ```
 
-The test suite encountered expected errors related to optional dependencies:
-- Missing `k2` module (for Kaldi2-FST integration)
-- Some tests were skipped due to other optional dependencies
-
 ### 3.2 Basic Model Testing
 
 We created a simple test script to verify basic functionality:
